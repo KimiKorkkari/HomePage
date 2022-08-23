@@ -1,0 +1,667 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+
+}
+.changer {
+  margin-bottom: 10vh;
+  position: absolute;
+  padding: 1vh;
+}
+.Mobile {
+  display: none;
+}
+.InfoTeksti{
+  max-width: 80vh;
+}
+
+.Lyhyesti {
+  color:black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  margin-top: 2em;
+}
+.Video {
+  margin-top: 10%;
+  margin-left: 2%;
+  width: 33%;
+}
+
+.Face {
+  height: 100vmin;
+  margin-right: -5vh;
+  margin-top: 0vh;
+}
+p {
+  margin: 0%;
+}
+
+.Alku {
+  height: 100vh;
+  width: 90%;
+  margin: 0%;
+  padding: 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  display: flex;
+  
+}
+
+.Nappi {
+font-size: 1.3em;
+display: block;
+background-color: black;
+margin: 0 auto;
+color:White;
+font-weight: bold;
+}
+.Nappi:hover {
+  color: darkgray;
+ 
+}
+
+.AlkuKuva {
+  width: 100%;
+  z-index: 2;
+}
+
+.Section {
+  height: 105vh;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  display: flex;
+  
+}
+
+.QuizSection {
+  height: 100vh;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  display: flex;
+
+}
+.RetroSection{
+  height: 100vh;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  display: flex;
+  position: relative;
+}
+.LangQuizSection {
+  height: 100vh;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  display: flex;
+  
+}
+
+.Left {
+ 
+  height: 100vh;
+  width: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color:yellow;
+ 
+}
+
+.Right {
+  height: 100vh;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  color:yellow;
+  flex-direction: row;
+
+}
+
+.HeaderLeft {
+
+  text-align: left;
+  margin-left: 5vh;
+  margin-top: 15vh;
+  height: 80vh;
+  flex-direction: column;
+}
+
+
+.UpperSpace {
+  height: 30vh;
+  margin: 0%;
+  padding: 0%;
+  text-align: left;
+}
+.Portfolio {
+  font-size: 5em;
+  padding-top: 5vh;
+  padding-left: 12vh;
+}
+.EndSpace {
+  background-color: black;
+  height: 30vh;
+}
+.RetroLeft{
+  background-color: black;
+  margin-top: -40vh;
+  height: 65vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:yellow;
+}
+.RetroRight {
+ 
+  height: 100vh;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  color:yellow;
+  flex-direction: row;
+  position: absolute;
+ 
+}
+.RetroText {
+  text-align: left;
+  margin-left: 13vh;
+  margin-top: 10vh;
+  height: 60vh;
+  width: 35%;
+  flex-direction: column;
+}
+.peli {
+  width: 100%;
+  z-index: 1; 
+  box-shadow: 0px 1px 10px 2px gray;
+  text-align: right;
+  position: absolute;
+  margin-left: -3vh;
+  margin-top: 20vh;
+}
+.Quiz {
+  width: 60%;
+  z-index: 1; 
+  box-shadow: 0px 1px 10px 2px gray;
+  text-align: center;
+  margin-top: 15vh;
+  margin-left: -120vh;
+  
+}
+.QuizRight{
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  justify-content: right; 
+}
+.QuizRightText {
+  max-width:55%;
+  margin-right: 10vh;
+  text-align: left;
+}
+.QuizLeft {
+  height: 100vh;
+  width: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color:yellow;
+}
+.LangQuizLeft {
+ 
+  height: 100vh;
+  width: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: -3%;
+}
+.LangQuizText{
+  max-width: 55%;
+  margin-right: 10vh;
+  margin-top: 15vh;
+  text-align: left;
+}
+.LangQuizRight{
+  background-color: black;
+  height: 80%;
+  width: 40%;
+}
+
+.but {
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.but2 {
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 2vh;
+}
+.End {
+  background-color: white;
+  text-align: left;
+  align-items: center;
+  
+
+}
+.EndText {
+    width: 60%;
+    margin-left: 20%;
+    line-height: 1.8em;
+    font-size: 1.7em;
+    background-color: white;
+}
+.EndSection {
+ 
+   
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  display: flex;
+  margin-bottom: 20vh;
+
+}
+
+
+@media only screen and (max-width: 1281px ) {
+  .Face {
+    height: 70vh;
+    margin-left: -3vh;
+
+
+  }
+  .Portfolio {
+      display: none;
+  }
+  .InfoTeksti{
+    max-width: 80%;
+    margin-left: 10%;
+    font-size: 1.2em;
+  }
+  .Lyhyesti {
+    color:black;
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  .HeaderLeft {
+
+    text-align: center;
+    margin-left: 0vh;
+    margin-top: -25vh;
+    flex-direction: column;
+    font-size: 0.8em;
+    max-width: 90%;
+    margin-left: 5%;
+
+  } 
+  
+  .Section{
+    display: block;
+    height: 155vh;
+
+  }
+  
+  .Left {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+   
+  }
+  .Right{
+    width: 100%;
+    overflow:auto ;
+  }
+
+  .UpperSpace {
+    height: 18vh;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  .EndSpace {
+    display: none;
+ 
+  }
+  
+ 
+ 
+  .RetroSection{
+    display: none;
+  }
+
+  .but {
+    display: none;
+  }
+  .but2 {
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 3vh;
+  }
+  
+  
+  .QuizSection {
+   
+    display: none;
+    
+  }
+
+  .LangQuizSection {
+    display: none;
+  }
+ 
+  .EndSection {
+   
+     
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    font-size:1.7em;
+  
+  
+  }
+
+  .End {
+   font-size: 0.6em;
+
+  }
+
+  .EndText {
+      max-width: 100%;
+      width: 80%;
+      margin-left: 10%;
+      background-color: white;
+      padding-bottom: 5vh;
+   
+  }
+  .Lyhyesti {
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 2em;
+  }
+.Cv {
+  padding-top: 1vh;
+  max-width: 90%;
+  margin-left: 5%;
+  
+}
+.Mobile {
+  margin-top: -18vh;
+  display: block;
+  flex-direction: column;
+  background-color: black;
+}
+
+.peli {
+  width: 70%;
+  padding-top: 5vh;
+  box-shadow: none;
+  text-align: left;
+  position: static;
+  margin-left: 0vh;
+  margin-top: 0vh;
+}
+.Quiz {
+  width: 60%;
+  padding-top: 5vh;
+  box-shadow: none;
+  text-align: left;
+  position: static;
+  margin-left: 0vh;
+  margin-top: 0vh;
+  padding-bottom: 5vh;
+  
+}
+.Video {
+  margin-top: 10%;
+  margin-left: 2%;
+  width: 25%;
+  padding-bottom: 10vh;
+}
+
+  
+
+}
+
+@media only screen and (max-width: 415px) {
+  .Face {
+    height: 40vh;
+    margin-left: -3vh;
+   
+
+  }
+  .Portfolio {
+      display: none;
+  }
+  .InfoTeksti{
+   
+    font-size: 1.3em;
+  }
+
+  .HeaderLeft {
+ 
+    text-align: center;
+    height: 50vh;
+    flex-direction: column;
+    font-size: 0.5em;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: -10vh;
+
+  } 
+  
+  
+  .Section{
+    display: block;
+    height: 100vh;
+  }
+  
+  .Left{
+    width: 100%;
+    margin: 0;
+   
+  }
+  .Right{
+    width: 100%;
+    height: 50%;
+    overflow:auto;
+  }
+
+  .UpperSpace {
+    height: 18vh;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  .EndSpace {
+    display: none;
+ 
+  }
+  
+ 
+ 
+  .RetroSection{
+    display: none;
+  }
+
+  .but {
+    display: none;
+  }
+  .but2 {
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 3vh;
+  }
+  
+  
+  .QuizSection {
+   
+    display: none;
+    
+  }
+
+  .LangQuizSection {
+    display: none;
+  }
+ 
+  .EndSection {
+   
+     
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+  
+  
+  }
+
+  .End {
+   font-size: 0.6em;
+
+  }
+
+  .EndText {
+      max-width: 90%;
+      width: 86%;
+      margin-left: 7%;
+      background-color: white;
+      padding-bottom: 5vh;
+      font-size: 1.2em;
+      text-align:justify;
+   
+  }
+.Lyhyesti {
+  color:black;
+  margin-top: 2em;
+  text-align: center;
+  padding-top: 5vh;
+}
+.Cv {
+  padding-top: 1vh;
+  max-width: 90%;
+  margin-left: 5%;
+  
+}
+.Mobile {
+  margin-top: -18vh;
+  display: block;
+  flex-direction: column;
+  background-color: black;
+}
+
+.peli {
+  width: 80%;
+  padding-top: 5vh;
+  box-shadow: none;
+  text-align: left;
+  position: static;
+  margin-left: 0vh;
+  margin-top: 0vh;
+}
+.Quiz {
+  width: 80%;
+  padding-top: 5vh;
+  box-shadow: none;
+  text-align: left;
+  position: static;
+  margin-left: 0vh;
+  margin-top: 0vh;
+  padding-bottom: 5vh;
+  
+}
+.Video {
+  margin-top: 10%;
+  margin-left: 2%;
+  width: 80%;
+}
+.changer {
+  margin-bottom: 10vh;
+  position: absolute;
+  padding: 1vh;
+
+
+}
+
+  
+
+}
+
+
+
